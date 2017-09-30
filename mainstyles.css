@@ -1,0 +1,27 @@
+
+body {
+    background-color: #F0EDE9;
+    font-family: verdana, serif;
+    margin-left: 50px
+}
+
+h1 {
+    color: maroon;
+}
+table tr td {
+    vertical-align:top
+}
+footer {
+    text-align: center;
+}
+.green_tick {
+    list-style-image: url(icons/green_tick.png);
+    padding: 6px 0 6px 28px;
+    margin: 0;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
