@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- w3.css is needed for fluid grid -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="w3.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> -->
+    <!-- font-awesome.min.css is needed for the hamburger menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="mainstyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./scripts/BrightSparks.js"></script>
+
+    <title>Our Services - BrightSparks</title>
+</head>
+
+<body>
+    <nav>
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div id="navBar" class="w3-bar w3-black w3-card-2">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="toggleNav()"
+                    title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a id="homeNav" href="home.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+                <a id="aboutNav" href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Us</a>
+                <a id="contactNav" href="ContactUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
+                <a id="servicesNav" href="OurServices.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Our Services</a>
+                <a id="tipsNav" href="TipsAndTricks.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tips &amp; Tricks</a>
+                <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+            </div>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="stackedNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="ContactUs.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+            <a href="OurServices.html" class="w3-bar-item w3-button w3-padding-large">Our Services</a>
+            <a href="TipsAndTricks.html" class="w3-bar-item w3-button w3-padding-large">Tips  &amp; Tricks</a>
+        </div>
+    </nav>
+
+
+    <!-- Wide screen -->
+    <div class="w3-display-container w3-green w3-hide-small" style="height:100px;">
+        <p class="w3-display-left w3-padding-48 w3-margin-left">Bright Sparks Electrical Ltd</p>
+        <p class="w3-display-right w3-padding-48 w3-margin-right"><a class="w3-button w3-hover-green" href="tel:021 000 0000" title="Call us!">021 123 4567</a></p>
+    </div>
+
+    <!-- Narrow screen -->
+    <div class="w3-padding-48 w3-display-container w3-green w3-hide-medium w3-hide-large" style="height:100px;">
+        <div class="w3-margin-left">Bright Sparks Electrical Ltd</div>
+        <div class="w3-margin-left"><a class="w3-button w3-hover-green telephone" href="tel:021 000 0000" title="Call us!">021 123 5678</a></div>
+    </div>
+
+    <header>
+        <h3 class="w3-margin-left">Services</h3>
+        <div class="w3-margin-left">Please feel free to fill out this form on our contact page if you would like more information about our services</div>
+    </header>
+    <br>
+    <main>
+        <div class="w3-row w3-border-bottom w3-border-gray">
+            <div class="w3-container w3-half">
+                <h2>Domestic</h2>
+                <ul class="green_tick">
+                    <li>New House/Workshop/Barn wiring</li>
+                    <li>Renovation wiring and re-wiring</li>
+                    <li>Data Cabling installations, additions and repairs</li>
+                    <li>Distributed audio</li>
+                    <li>CCTV cabling installations, additions and repairs</li>
+                    <li>Home theatre</li>
+                    <li>Security alarm installation, service and monitoring</li>
+                    <li>Audio Video</li>
+                    <li>Swimming pool automation and electrical repairs</li>
+                    <li>Home automation</li>
+                    <li>Urgent electrical repairs including hot water</li>
+                    <li>Alternative power supply systems</li>
+                    <li>Landscape lighting including advice supply and installation</li>
+                    <li>Home Ventilation Systems</li>
+                </ul>
+            </div>
+            <div class="w3-container w3-half">
+                <h2>Commercial</h2>
+                <ul class="green_tick">
+                    <li>Shop/Office Fitouts</li>
+                    <li>Data</li>
+                    <li>Cabling installations, additions and repairs</li>
+                    <li>Renovation wiring and re-wiring</li>
+                    <li>CCTV cabling installations, additions and repairs</li>
+                    <li>Security alarm installation, service and monitoring</li>
+                    <li>Alternative power supply systems </li>
+                    <li>Lighting Designs</li>
+                </ul>
+                <h2>Maintenance</h2>
+                <ul class="green_tick">
+                    <li>Property Management</li>
+                    <li>Test and Tagging</li>
+                    <li>Alarms/Security</li>
+                    <li>Emergency Lighting</li>
+                    <li>Repairs</li>
+                    <li>Preventive Maintenance</li>
+                    <br>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="w3-hide-small">
+        <p class="alignleft w3-margin-left">&#169; Copyright 2017 Bright Sparks Electrical Ltd.</p>
+        <p class="alignright w3-margin-right">Peregrine Consulting Ltd.</p>
+    </footer>
+
+    <footer id="stackedFooter" class="w3-hide-medium w3-hide-large">
+        <p class="w3-margin-left">&#169; Copyright 2017 Bright Sparks Electrical Ltd.</p>
+        <p class="w3-margin-left">Peregrine Consulting Ltd.</p>
+    </footer>
+
+    <script>
+        $(function () {
+            // this will get the full URL at the address bar
+            var url = window.location.href;
+
+            // passes on every "a" tag
+            $("#navBar a").each(function () {
+                // checks if its the same on the address bar
+                if (url == (this.href)) {
+                    $(this).addClass("activeNavButton");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

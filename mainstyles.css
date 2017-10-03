@@ -1,10 +1,7 @@
-
 body {
     background-color: #F0EDE9;
     font-family: verdana, serif;
-    margin-left: 50px
 }
-
 h1 {
     color: maroon;
 }
@@ -24,4 +21,10 @@ footer {
 }
 .alignright {
 	float: right;
+}
+.activeNavButton {
+    background: grey;
+}
+.telephone {
+    padding: 0;
 }
