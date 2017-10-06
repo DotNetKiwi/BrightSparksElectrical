@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <!-- w3.css is needed for fluid grid -->
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
@@ -15,9 +14,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./scripts/BrightSparks.js"></script>
 
-    <title>Our Services - BrightSparks</title>
+    <title>Our Services xxxx- BrightSparks</title>
 </head>
 
 <body>
@@ -28,39 +26,40 @@
                 <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="toggleNav()"
                     title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
                 <a id="homeNav" href="home.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-                <a id="aboutNav" href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Us</a>
-                <a id="contactNav" href="ContactUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
-                <a id="servicesNav" href="OurServices.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Our Services</a>
-                <a id="tipsNav" href="TipsAndTricks.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tips &amp; Tricks</a>
+                <a id="aboutNav" href="about-us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Us</a>
+                <a id="contactNav" href="contact-us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact Us</a>
+                <a id="servicesNav" href="our-services.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Our Services</a>
+                <a id="tipsNav" href="tips-and-tricks.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tips &amp; Tricks</a>
                 <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
             </div>
         </div>
 
         <!-- Navbar on small screens -->
         <div id="stackedNav" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-            <a href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
-            <a href="ContactUs.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-            <a href="OurServices.html" class="w3-bar-item w3-button w3-padding-large">Our Services</a>
-            <a href="TipsAndTricks.html" class="w3-bar-item w3-button w3-padding-large">Tips  &amp; Tricks</a>
+            <a href="about-us.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+            <a href="contact-us.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+            <a href="our-services.html" class="w3-bar-item w3-button w3-padding-large">Our Services</a>
+            <a href="tips-and-tricks.html" class="w3-bar-item w3-button w3-padding-large">Tips  &amp; Tricks</a>
         </div>
     </nav>
 
+    <div class="nav-spacer"></div>
 
     <!-- Wide screen -->
-    <div class="w3-display-container w3-green w3-hide-small" style="height:100px;">
-        <p class="w3-display-left w3-padding-48 w3-margin-left">Bright Sparks Electrical Ltd</p>
-        <p class="w3-display-right w3-padding-48 w3-margin-right"><a class="w3-button w3-hover-green" href="tel:021 000 0000" title="Call us!">021 123 4567</a></p>
+    <div class="w3-display-container w3-green w3-hide-small top-common-details-wide">
+        <p class="w3-display-topleft w3-margin-left">Bright Sparks Electrical Ltd</p>
+        <p class="w3-display-topright w3-margin-right"><a class="w3-hover-green no-decoration" href="tel:021 000 0000" title="Call us!">021 123 4567</a></p>
     </div>
 
     <!-- Narrow screen -->
-    <div class="w3-padding-48 w3-display-container w3-green w3-hide-medium w3-hide-large" style="height:100px;">
+    <div class="w3-display-container w3-green w3-hide-medium w3-hide-large top-common-details-narrow">
         <div class="w3-margin-left">Bright Sparks Electrical Ltd</div>
-        <div class="w3-margin-left"><a class="w3-button w3-hover-green telephone" href="tel:021 000 0000" title="Call us!">021 123 5678</a></div>
+        <div class="w3-margin-left"><a class="w3-hover-green  no-decoration" href="tel:021 000 0000" title="Call us!">021 123 5678</a></div>
     </div>
 
     <header>
         <h3 class="w3-margin-left">Services</h3>
-        <div class="w3-margin-left">Please feel free to fill out this form on our contact page if you would like more information about our services</div>
+        <div class="w3-margin-left w3-margin-right">Please feel free to fill out this form on our contact page if you would like more information about our services</div>
     </header>
     <br>
     <main>
@@ -118,6 +117,8 @@
         <p class="w3-margin-left">&#169; Copyright 2017 Bright Sparks Electrical Ltd.</p>
         <p class="w3-margin-left">Peregrine Consulting Ltd.</p>
     </footer>
+
+    <script src="/scripts/bright-sparks.js"></script>
 
     <script>
         $(function () {

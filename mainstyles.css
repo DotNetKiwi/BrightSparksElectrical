@@ -26,5 +26,33 @@ footer {
     background: grey;
 }
 .telephone {
-    padding: 0;
+    padding: 10;
+}
+.top-common-details-wide {
+    margin-top: 0px;
+    height:50px;   
+}
+
+.top-common-details-narrow {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    height:56px;   
+}
+
+/* This goes behind the menu buttons so that following elements to not go under them */
+.nav-spacer {
+    height: 46.5px;
+    background-color: black;
+}
+
+/* Box Sizing fix - forces the padding and border to be part of the element size */
+/* html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+} */
+.no-decoration {
+    text-decoration: none;
 }
